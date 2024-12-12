@@ -1,2 +1,8 @@
-﻿  route_length.c
+﻿  route.c
+C:\Users\tanas\repos\source_code\Lab4\Route_length\route.c(25,8): warning C4030: first formal parameter list longer than the second list
+C:\Users\tanas\repos\source_code\Lab4\Route_length\route.c(25,8): warning C4028: formal parameter 1 different from declaration
+C:\Users\tanas\repos\source_code\Lab4\Route_length\route.c(25,8): warning C4028: formal parameter 2 different from declaration
+C:\Users\tanas\repos\source_code\Lab4\Route_length\route.c(69,26): warning C4028: formal parameter 1 different from declaration
+C:\Users\tanas\repos\source_code\Lab4\Route_length\route.c(69,44): warning C4028: formal parameter 2 different from declaration
+C:\Users\tanas\repos\source_code\Lab4\Route_length\route.c(69,8): warning C4029: declared formal parameter list different from definition
   Route_length.vcxproj -> C:\Users\tanas\repos\source_code\Lab4\x64\Debug\Route_length.exe

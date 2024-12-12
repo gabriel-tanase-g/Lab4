@@ -1,0 +1,11 @@
+﻿  maxDistance.c
+C:\Users\tanas\repos\source_code\Lab4\Maximum_distance_(2D_arrays)\maxDistance.c(34,19): warning C4047: 'function': 'const double *' differs in levels of indirection from 'double [7][2]'
+C:\Users\tanas\repos\source_code\Lab4\Maximum_distance_(2D_arrays)\maxDistance.c(34,19): warning C4024: 'convertToRadians': different types for formal and actual parameter 1
+C:\Users\tanas\repos\source_code\Lab4\Maximum_distance_(2D_arrays)\maxDistance.c(34,32): warning C4047: 'function': 'double *' differs in levels of indirection from 'double [7][2]'
+C:\Users\tanas\repos\source_code\Lab4\Maximum_distance_(2D_arrays)\maxDistance.c(34,32): warning C4024: 'convertToRadians': different types for formal and actual parameter 2
+C:\Users\tanas\repos\source_code\Lab4\Maximum_distance_(2D_arrays)\maxDistance.c(41,41): warning C4028: formal parameter 1 different from declaration
+C:\Users\tanas\repos\source_code\Lab4\Maximum_distance_(2D_arrays)\maxDistance.c(48,41): warning C4090: 'function': different 'const' qualifiers
+C:\Users\tanas\repos\source_code\Lab4\Maximum_distance_(2D_arrays)\maxDistance.c(48,69): warning C4090: 'function': different 'const' qualifiers
+C:\Users\tanas\repos\source_code\Lab4\Maximum_distance_(2D_arrays)\maxDistance.c(62,36): warning C4028: formal parameter 1 different from declaration
+C:\Users\tanas\repos\source_code\Lab4\Maximum_distance_(2D_arrays)\maxDistance.c(62,74): warning C4028: formal parameter 2 different from declaration
+C:\Users\tanas\repos\source_code\Lab4\Maximum_distance_(2D_arrays)\maxDistance.c(55,1): warning C4716: 'getMaximumDistance': must return a value

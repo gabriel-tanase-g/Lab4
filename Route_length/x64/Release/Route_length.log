@@ -1,0 +1,6 @@
+﻿  route.c
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 7 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Route_length.vcxproj -> C:\Users\tanas\repos\source_code\Lab4\x64\Release\Route_length.exe

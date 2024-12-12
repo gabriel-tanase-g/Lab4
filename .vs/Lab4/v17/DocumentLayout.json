@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\tanas\\repos\\source_code\\Lab4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D70E243F-CF88-4CB2-BE0E-812E7089AB13}|Route_length\\Route_length.vcxproj|C:\\Users\\tanas\\repos\\source_code\\Lab4\\Route_length\\route_length.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D70E243F-CF88-4CB2-BE0E-812E7089AB13}|Route_length\\Route_length.vcxproj|solutionrelative:Route_length\\route_length.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C7CF66B2-D54A-43CA-A871-2C628FE190E7}|Maximum_distance_(2D_arrays)\\Maximum_distance_(2D_arrays).vcxproj|C:\\Users\\tanas\\repos\\source_code\\Lab4\\Maximum_distance_(2D_arrays)\\maxDistance.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C7CF66B2-D54A-43CA-A871-2C628FE190E7}|Maximum_distance_(2D_arrays)\\Maximum_distance_(2D_arrays).vcxproj|solutionrelative:Maximum_distance_(2D_arrays)\\maxDistance.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70E243F-CF88-4CB2-BE0E-812E7089AB13}|Route_length\\Route_length.vcxproj|C:\\Users\\tanas\\repos\\source_code\\Lab4\\Route_length\\route.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D70E243F-CF88-4CB2-BE0E-812E7089AB13}|Route_length\\Route_length.vcxproj|solutionrelative:Route_length\\route.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "route_length.c",
-              "DocumentMoniker": "C:\\Users\\tanas\\repos\\source_code\\Lab4\\Route_length\\route_length.c",
-              "RelativeDocumentMoniker": "Route_length\\route_length.c",
-              "ToolTip": "C:\\Users\\tanas\\repos\\source_code\\Lab4\\Route_length\\route_length.c",
-              "RelativeToolTip": "Route_length\\route_length.c",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAE0AAAA2AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "route.c",
+              "DocumentMoniker": "C:\\Users\\tanas\\repos\\source_code\\Lab4\\Route_length\\route.c",
+              "RelativeDocumentMoniker": "Route_length\\route.c",
+              "ToolTip": "C:\\Users\\tanas\\repos\\source_code\\Lab4\\Route_length\\route.c",
+              "RelativeToolTip": "Route_length\\route.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAD0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-12-08T08:16:19.813Z",
+              "WhenOpened": "2024-12-12T10:02:35.438Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "maxDistance.c",
+              "DocumentMoniker": "C:\\Users\\tanas\\repos\\source_code\\Lab4\\Maximum_distance_(2D_arrays)\\maxDistance.c",
+              "RelativeDocumentMoniker": "Maximum_distance_(2D_arrays)\\maxDistance.c",
+              "ToolTip": "C:\\Users\\tanas\\repos\\source_code\\Lab4\\Maximum_distance_(2D_arrays)\\maxDistance.c",
+              "RelativeToolTip": "Maximum_distance_(2D_arrays)\\maxDistance.c",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-08T10:31:27.894Z",
               "EditorCaption": ""
             }
           ]
