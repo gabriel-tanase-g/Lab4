@@ -13,16 +13,15 @@
 - C
 - Display the result to the user in the console
 ********************************************************/
-
-#include<stdio.h>
 #define _USE_MATH_DEFINES // allow the usage of value of pi from math.h
+#include<stdio.h>
 #include <math.h> // use for trigonometric functions, and the value of pi
 #define SIZE 7 // number of locations
 #define COORDINATES 2 // latitude x longitude
 
-double getMaximumDistance(const double coordinatesInRad[SIZE][COORDINATES], int* index1, int* index2);
-void convertToRadians(const double inputArray[SIZE][COORDINATES], double outputArray[SIZE][COORDINATES], int rows, int columns); // parameters: pointers to an input 2d array, output 2d array, size in rows and columns, return: none: convert coordinates from input array into radians and store them in output array
-double distanceKm(const double location1[COORDINATES], const double location2[COORDINATES]); // parameters: 2 arrays with location as latitude x longitude (in radians). returns an accurate distance between 2 locations
+double getMaximumDistance(const double coordinatesInRad[SIZE][COORDINATES], int* index1, int* index2); // parameters: 2d array with coordinates of locations, pointer to index to store location inside the array for the locations with largest distance. return: largest distance among all locations in the array
+void convertToRadians(const double inputArray[SIZE][COORDINATES], double outputArray[SIZE][COORDINATES], int rows, int columns); // parameters: pointers to an input 2d array and an output 2d array, size in rows and columns, return: none: convert coordinates from input array into radians and store them in output array
+double distanceKm(const double location1[COORDINATES], const double location2[COORDINATES]); // parameters: arrays with location as latitude x longitude (in radians). return an accurate distance between 2 locations
 
 int main(void)
 {
@@ -69,6 +68,10 @@ int main(void)
 
 double getMaximumDistance(const double coordinatesInRad[SIZE][COORDINATES], int* indexA, int* indexB)
 {
+// parameters: 2d array with coordinates of locations 
+// parameter: pointer to index to store first location inside the array, for the locations with largest distance
+// parameter: pointer to index to store second location inside the array, for the locations with largest distance
+// return: largest distance among all locations in the array
     double maxDistance = 0;
     double currentDistance = 0;
 
@@ -91,6 +94,11 @@ double getMaximumDistance(const double coordinatesInRad[SIZE][COORDINATES], int*
 
 void convertToRadians(const double inputArray[SIZE][COORDINATES], double outputArray[SIZE][COORDINATES], int rows, int columns)
 {
+// parameter: pointers to an input 2d array
+// parameter: pointer to an output 2d array
+// parameter: size of rows
+// parameter: size of columns (coordinates)
+// return: none: convert coordinates from input array into radians and store them in output array
     for (int i = 0; i < rows; i++)
     {
         for (int j = 0; j < columns; j++)
@@ -100,6 +108,9 @@ void convertToRadians(const double inputArray[SIZE][COORDINATES], double outputA
 
 double distanceKm(const double location1[COORDINATES], const double location2[COORDINATES])
 {
+// parameters: array for first location with coordinates as latitude x longitude (in radians)
+// parameters: array for second location with coordinates as latitude x longitude (in radians)
+// return an accurate distance between the 2 locations
     const double EARTH_RADIUS = 6378.388; // The Earth’s radius
     double acosArgument = sin(location1[0]) * sin(location2[0])
         + cos(location1[0]) * cos(location2[0]) * cos(location2[1] - location1[1]);
