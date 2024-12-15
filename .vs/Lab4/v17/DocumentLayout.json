@@ -31,8 +31,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-12-12T10:02:35.438Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -42,7 +41,7 @@
               "RelativeDocumentMoniker": "Maximum_distance_(2D_arrays)\\maxDistance.c",
               "ToolTip": "C:\\Users\\tanas\\repos\\source_code\\Lab4\\Maximum_distance_(2D_arrays)\\maxDistance.c",
               "RelativeToolTip": "Maximum_distance_(2D_arrays)\\maxDistance.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAACIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-12-08T10:31:27.894Z",
               "EditorCaption": ""
